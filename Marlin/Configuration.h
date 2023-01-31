@@ -755,9 +755,9 @@
   // Creality Ender-3 Pro 400XL // TR
   // 120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   // from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define DEFAULT_bedKp 90.99 // TR
-  #define DEFAULT_bedKi 15.80 // TR
-  #define DEFAULT_bedKd 349.40 // TR
+  #define DEFAULT_bedKp 43.15 // TR
+  #define DEFAULT_bedKi 2.87 // TR
+  #define DEFAULT_bedKd 432.66 // TR
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
